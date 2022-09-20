@@ -179,7 +179,7 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
+  text-align: center;
 }
 
 .TitleGoesHere p {
@@ -187,6 +187,12 @@ body {
   color: #b0bec5;
   width: 50%;
   text-transform: none;
+}
+
+.newsinfo {
+  text-decoration: none;
+  margin: 0;
+  padding: 0;
 }
 
 .info {
@@ -200,8 +206,9 @@ body {
 }
 
 .icon {
+  width: 35%;
   padding-top: 50px;
-  margin-bottom: 20px;
+  margin: 0 0 20px 15px;
 }
 
 .give {
